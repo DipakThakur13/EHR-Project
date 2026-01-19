@@ -53,31 +53,8 @@ Axios for HTTP communication
 
 Formik + Yup (optional) for form handling and validation
 
-📁 Project Structure
-src/
- ├── api/                # Backend API interaction layer
- │   ├── auth.ts
- │   ├── records.ts
- │   ├── consent.ts
- │   └── audit.ts
- ├── app/                # App-level configuration
- │   ├── App.tsx
- │   ├── router.tsx
- │   └── queryClient.ts
- ├── components/
- │   ├── layout/         # Layout components (sidebar, shell)
- │   ├── common/         # Reusable UI components
- │   └── guards/         # Role & auth guards
- ├── pages/
- │   ├── auth/           # Login & authentication views
- │   ├── patient/        # Patient dashboards & flows
- │   ├── doctor/         # Doctor dashboards & flows
- │   └── admin/          # Admin views (optional)
- ├── hooks/              # Custom React hooks
- ├── store/              # Auth & global state
- ├── types/              # Shared TypeScript types
- ├── utils/              # Constants & helpers
- └── main.tsx            # Application entry point
+<img width="541" height="524" alt="image" src="https://github.com/user-attachments/assets/59b693c6-a089-40d8-ba72-c586903b8f66" />
+
 
 
 This structure is intentionally modular to support:
@@ -331,19 +308,8 @@ Access event is logged immutably
 
 This workflow represents the minimum complete system path.
 
-📁 Repository Structure (Monorepo)
-.
-├── frontend/                 # React frontend application
-│   └── src/
-├── backend/                  # NestJS backend API
-│   └── src/
-├── contracts/                # Solidity smart contracts (Hardhat)
-│   ├── contracts/
-│   ├── scripts/
-│   └── test/
-├── docs/                     # Architecture & design documentation
-├── docker-compose.yml        # Local development environment
-└── README.md
+<img width="663" height="275" alt="image" src="https://github.com/user-attachments/assets/4efc46c9-5f3b-4220-b092-346466051d8a" />
+
 
 🚀 Local Development Setup
 Prerequisites
