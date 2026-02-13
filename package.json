@@ -1,0 +1,21 @@
+{
+  "name": "ehr-project",
+  "version": "1.0.0",
+  "description": "🏥 EHR Frontend Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^22.19.11",
+    "hardhat": "^2.22.3",
+    "typescript": "~5.8.0"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0"
+  }
+}
